@@ -559,7 +559,7 @@ body {
 .gallery-collage {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 260px 260px;
+    grid-template-rows: 280px 280px;
     gap: 12px;
     margin-top: 40px;
 }
@@ -573,6 +573,10 @@ body {
 .gallery-item--large {
     grid-column: span 2;
     grid-row: span 2;
+}
+
+.gallery-item--wide {
+    grid-column: span 2;
 }
 
 .gallery-item img {
